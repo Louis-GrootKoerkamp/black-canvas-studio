@@ -50,7 +50,7 @@ const BookingSection = () => {
             <CheckCircle className="w-16 h-16 text-foreground mx-auto mb-6" strokeWidth={1} />
             <h2 className="text-section text-foreground mb-4">Narrative Received</h2>
             <p className="text-body text-muted-foreground mb-8">
-              Lego will review your request and respond within 48 hours. In the meantime, feel free to browse more work or follow on Instagram.
+              Stubborn Tattoo Studio will review your request and respond within 48 hours. In the meantime, feel free to browse more work or follow on Instagram.
             </p>
             <div className="surface-elevated p-6 text-left space-y-3">
               <p className="text-cta text-muted-foreground mb-4">What Happens Next</p>
