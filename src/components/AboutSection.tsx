@@ -16,7 +16,7 @@ const AboutSection = () => {
           >
             <img
               src={artistPortrait}
-              alt="Lego - Tattoo Artist"
+              alt="Stubborn Tattoo Studio Artist"
               className="w-full object-cover grayscale"
             />
           </motion.div>
