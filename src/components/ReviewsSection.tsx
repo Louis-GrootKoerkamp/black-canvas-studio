@@ -4,17 +4,17 @@ import { Star } from "lucide-react";
 const reviews = [
   {
     name: "Thomas V.",
-    text: "Lego is a master of contrast. The depth and detail in my portrait sleeve is absolutely unreal. Worth every minute of the wait.",
+    text: "Stubborn Tattoo Studio delivers masterful contrast. The depth and detail in my portrait sleeve is absolutely unreal. Worth every minute of the wait.",
     verified: true,
   },
   {
     name: "Sarah M.",
-    text: "From the first consultation to the final session, the experience was nothing short of premium. Lego truly listens and delivers beyond expectations.",
+    text: "From the first consultation to the final session, the experience was nothing short of premium. The team truly listens and delivers beyond expectations.",
     verified: true,
   },
   {
     name: "Mark D.",
-    text: "I've been tattooed by many artists, but Lego's realism work is on another level. The attention to shading and anatomical accuracy is insane.",
+    text: "I've been tattooed by many artists, but Stubborn's realism work is on another level. The attention to shading and anatomical accuracy is insane.",
     verified: true,
   },
   {
@@ -24,7 +24,7 @@ const reviews = [
   },
   {
     name: "Daniel R.",
-    text: "Traveled from Germany specifically for Lego's work. The result exceeded every expectation. A true artist in every sense of the word.",
+    text: "Traveled from Germany specifically for Stubborn Tattoo. The result exceeded every expectation. True artists in every sense of the word.",
     verified: true,
   },
 ];

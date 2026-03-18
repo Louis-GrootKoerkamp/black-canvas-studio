@@ -24,10 +24,10 @@ const HeroSection = () => {
           className="text-center"
         >
           <p className="text-cta text-muted-foreground mb-4">
-            Permanent Realism
+            Realistic Black &amp; Grey Tattoos
           </p>
           <h1 className="text-display text-foreground mb-6">
-            by Lego
+            Stubborn Tattoo Studio
           </h1>
           <p className="text-body text-muted-foreground mb-10 max-w-md mx-auto">
             Realistic black &amp; grey tattoos. Each piece is a one-of-one collaboration between artist and canvas.
