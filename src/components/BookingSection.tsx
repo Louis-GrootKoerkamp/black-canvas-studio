@@ -56,7 +56,7 @@ const BookingSection = () => {
               <p className="text-cta text-muted-foreground mb-4">What Happens Next</p>
               <div className="flex gap-4 items-start">
                 <span className="text-cta text-muted-foreground">01</span>
-                <p className="text-body text-muted-foreground">Review — Lego reviews your idea and references</p>
+                <p className="text-body text-muted-foreground">Review — We review your idea and references</p>
               </div>
               <div className="flex gap-4 items-start">
                 <span className="text-cta text-muted-foreground">02</span>

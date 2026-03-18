@@ -34,7 +34,7 @@ const AboutSection = () => {
             </h2>
             <div className="space-y-6 text-body text-muted-foreground">
               <p>
-                Hey, I'm Lego. I've been tattooing since 2015, specializing in hyper-realistic black and grey work. Every piece I create is a collaboration — your story, my craft, permanently fused.
+                Welcome to Stubborn Tattoo Studio. We've been tattooing since 2015, specializing in hyper-realistic black and grey work. Every piece we create is a collaboration — your story, our craft, permanently fused.
               </p>
               <p>
                 Based at Stubborn Tattoo Studio in Utrecht, I approach each project with obsessive attention to detail. From the initial consultation to the final needle stroke, I'm committed to creating work that transcends skin.

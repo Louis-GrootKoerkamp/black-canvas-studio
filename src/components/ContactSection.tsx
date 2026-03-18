@@ -41,7 +41,7 @@ const ContactSection = () => {
                 className="flex items-center gap-4 text-body text-muted-foreground hover:text-foreground transition-colors group"
               >
                 <Facebook size={18} className="text-accent group-hover:text-foreground transition-colors" />
-                Lego Tattoos
+                Stubborn Tattoo Studio
               </a>
               <div className="flex items-start gap-4 text-body text-muted-foreground">
                 <MapPin size={18} className="text-accent mt-0.5" />
