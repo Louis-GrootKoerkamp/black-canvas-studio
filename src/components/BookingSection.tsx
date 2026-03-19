@@ -52,7 +52,7 @@ const BookingSection = () => {
             <p className="text-body text-muted-foreground mb-8">
               Stubborn Tattoo Studio will review your request and respond within 48 hours. In the meantime, feel free to browse more work or follow on Instagram.
             </p>
-            <div className="surface-elevated p-6 text-left space-y-3">
+            <div className="glass-panel p-6 text-left space-y-3">
               <p className="text-cta text-muted-foreground mb-4">What Happens Next</p>
               <div className="flex gap-4 items-start">
                 <span className="text-cta text-muted-foreground">01</span>
@@ -74,8 +74,13 @@ const BookingSection = () => {
   }
 
   return (
-    <section id="booking" className="section-spacing px-6">
-      <div className="max-w-2xl mx-auto">
+    <section id="booking" className="section-spacing px-6 relative overflow-hidden">
+      {/* Liquid Glass Orbs */}
+      <div className="absolute inset-0 pointer-events-none z-0">
+        <div className="liquid-orb bg-blue-600/20 w-[30rem] h-[30rem] top-[10%] left-[10%] animate-float" style={{ animationDelay: "1s" }} />
+        <div className="liquid-orb bg-orange-600/10 w-[25rem] h-[25rem] bottom-[10%] right-[10%] animate-float" style={{ animationDelay: "3s", animationDuration: "10s" }} />
+      </div>
+      <div className="max-w-2xl mx-auto relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -100,7 +105,7 @@ const BookingSection = () => {
         </div>
 
         {/* Steps */}
-        <div className="surface-elevated p-6 md:p-10 min-h-[320px]">
+        <div className="glass-panel p-6 md:p-10 min-h-[320px]">
           <AnimatePresence mode="wait">
             {step === 0 && (
               <motion.div

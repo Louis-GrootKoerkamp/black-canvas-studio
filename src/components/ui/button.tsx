@@ -9,14 +9,14 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-primary text-primary-foreground hover:bg-primary/90",
-        destructive: "bg-destructive text-destructive-foreground hover:bg-destructive/90",
+        default: "bg-primary text-primary-foreground hover:bg-primary/90 hover:shadow-[0_0_15px_rgba(255,255,255,0.15)]",
+        destructive: "bg-destructive text-destructive-foreground hover:bg-destructive/90 hover:shadow-[0_0_15px_rgba(255,0,0,0.2)]",
         outline: "border border-input bg-background hover:bg-accent hover:text-accent-foreground",
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
-        hero: "bg-primary text-primary-foreground font-mono text-xs tracking-[0.15em] uppercase px-8 py-4 hover:scale-[0.98] active:scale-95",
-        steel: "border border-accent/30 text-foreground font-mono text-xs tracking-[0.15em] uppercase px-8 py-4 hover:bg-foreground/5 hover:border-accent/50",
+        hero: "bg-primary text-primary-foreground font-mono text-xs tracking-[0.15em] uppercase px-8 py-4 transition-all duration-300 ease-out hover:scale-[1.02] hover:shadow-[0_0_25px_rgba(255,255,255,0.2)] active:scale-95",
+        steel: "border border-accent/30 text-foreground font-mono text-xs tracking-[0.15em] uppercase px-8 py-4 transition-all duration-300 hover:bg-foreground/5 hover:border-accent/50 hover:shadow-[0_0_15px_rgba(255,255,255,0.05)] active:scale-95",
       },
       size: {
         default: "h-10 px-4 py-2",

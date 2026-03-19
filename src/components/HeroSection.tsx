@@ -12,16 +12,23 @@ const HeroSection = () => {
           alt="Tattoo artistry in progress"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-background/50 to-background" />
+        <div className="absolute inset-0 bg-background/50" />
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/50 to-background" />
+        
+        {/* Liquid Glass Orbs */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <div className="liquid-orb bg-white/10 w-[30rem] md:w-[40rem] h-[30rem] md:h-[40rem] -top-[10%] -left-[10%] animate-float" style={{ animationDelay: "0s" }} />
+          <div className="liquid-orb bg-slate-300/10 w-[25rem] md:w-[35rem] h-[25rem] md:h-[35rem] top-[20%] right-[0%] animate-float" style={{ animationDelay: "2s", animationDuration: "8s" }} />
+        </div>
       </div>
 
       {/* Content */}
-      <div className="relative z-10 h-full flex flex-col items-center justify-end pb-24 md:pb-32 px-6">
+      <div className="relative z-10 h-full flex flex-col items-center justify-end pb-12 md:pb-20 px-6">
         <motion.div
-          initial={{ opacity: 0, filter: "blur(10px)" }}
-          animate={{ opacity: 1, filter: "blur(0px)" }}
-          transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
-          className="text-center"
+          initial={{ opacity: 0, y: 30, filter: "blur(12px)" }}
+          animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+          transition={{ duration: 1.4, ease: [0.16, 1, 0.3, 1] }}
+          className="text-center w-full max-w-4xl mx-auto glass-panel rounded-3xl p-8 md:p-12"
         >
           <p className="text-cta text-muted-foreground mb-4">
             Realistic Black &amp; Grey Tattoos

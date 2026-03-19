@@ -4,8 +4,12 @@ import { Button } from "@/components/ui/button";
 
 const ContactSection = () => {
   return (
-    <section id="contact" className="section-spacing px-6 border-t border-border">
-      <div className="max-w-7xl mx-auto">
+    <section id="contact" className="section-spacing px-6 border-t border-border relative overflow-hidden">
+      {/* Liquid Glass Orbs */}
+      <div className="absolute inset-0 pointer-events-none z-0">
+        <div className="liquid-orb bg-purple-600/20 w-[35rem] h-[35rem] top-0 right-[20%] animate-float" style={{ animationDelay: "0s", animationDuration: "9s" }} />
+      </div>
+      <div className="max-w-7xl mx-auto relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
           {/* Info */}
           <motion.div
@@ -72,7 +76,7 @@ const ContactSection = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="relative overflow-hidden surface-elevated"
+            className="relative overflow-hidden glass-panel p-2"
           >
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2452.8!2d5.044666!3d52.0990846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c66f4eafbc179f%3A0x7b9c2a89ea0a352d!2sStubborn%20Tattoo%20Studio!5e0!3m2!1sen!2snl!4v1"

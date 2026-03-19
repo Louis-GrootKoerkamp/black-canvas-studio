@@ -3,28 +3,23 @@ import { Star } from "lucide-react";
 
 const reviews = [
   {
-    name: "Thomas V.",
-    text: "Stubborn Tattoo Studio delivers masterful contrast. The depth and detail in my portrait sleeve is absolutely unreal. Worth every minute of the wait.",
+    name: "Benedikt Stroher",
+    text: "Awesome place to get your tattoo. Lego is an insane artist and creates incredible realism tattoos. He works with you to get you what you want and then makes sure you have ink you can be proud of for the rest of your life. Lego is an absolute professional and was very kind. Can’t wait to come back for another piece.",
     verified: true,
   },
   {
-    name: "Sarah M.",
-    text: "From the first consultation to the final session, the experience was nothing short of premium. The team truly listens and delivers beyond expectations.",
+    name: "Alex G.",
+    text: "Amazing studio! I came here to get tattooed by John, one of Lego's good friends and had a great time at the shop. Lego is an excellent host, took great care of me, and made me feel at home. ... I'd go back in a heartbeat. Thank you for your hospitality Lego!",
     verified: true,
   },
   {
-    name: "Mark D.",
-    text: "I've been tattooed by many artists, but Stubborn's realism work is on another level. The attention to shading and anatomical accuracy is insane.",
+    name: "Jamie Saunders",
+    text: "I recently had the pleasure of getting a tattoo from LEGO and I couldn’t be happier with the results. He was very professional and made me feel comfortable throughout the entire process. His attention to detail and high-quality work really impressed me.",
     verified: true,
   },
   {
-    name: "Jessica K.",
-    text: "The studio atmosphere, the professionalism, and most importantly — the art. My tattoo looks like a photograph on skin. Incredible.",
-    verified: true,
-  },
-  {
-    name: "Daniel R.",
-    text: "Traveled from Germany specifically for Stubborn Tattoo. The result exceeded every expectation. True artists in every sense of the word.",
+    name: "Rens Rutten",
+    text: "Had a really great experience, nice studio and super relaxed atmosphere, that also the artist is creating. Had a lot of nice talks and laughs, and even more the result of the tattoo is amazing, couldn’t imagine it any better. It’s just really a piece of art!",
     verified: true,
   },
 ];

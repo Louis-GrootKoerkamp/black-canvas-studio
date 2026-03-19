@@ -90,6 +90,23 @@ export default {
           "0%": { opacity: "0", transform: "translateY(40px)" },
           "100%": { opacity: "1", transform: "translateY(0)" },
         },
+        marquee: {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(calc(-100% - var(--gap)))" },
+        },
+        "marquee-vertical": {
+          from: { transform: "translateY(0)" },
+          to: { transform: "translateY(calc(-100% - var(--gap)))" },
+        },
+        morph: {
+          "0%, 100%": { borderRadius: "40% 60% 70% 30% / 40% 40% 60% 50%" },
+          "34%": { borderRadius: "70% 30% 50% 50% / 30% 30% 70% 70%" },
+          "67%": { borderRadius: "100% 60% 60% 100% / 100% 100% 60% 60%" },
+        },
+        float: {
+          "0%, 100%": { transform: "translateY(0) translateX(0)" },
+          "50%": { transform: "translateY(-20px) translateX(10px)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -97,6 +114,10 @@ export default {
         "fade-in": "fade-in 0.6s cubic-bezier(0.22, 1, 0.36, 1) forwards",
         "fade-in-slow": "fade-in-slow 1.5s ease forwards",
         "slide-up": "slide-up 0.8s cubic-bezier(0.22, 1, 0.36, 1) forwards",
+        marquee: "marquee var(--duration) linear infinite",
+        "marquee-vertical": "marquee-vertical var(--duration) linear infinite",
+        morph: "morph 8s ease-in-out infinite",
+        float: "float 6s ease-in-out infinite",
       },
     },
   },
